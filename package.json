@@ -1,0 +1,15 @@
+{
+  "name": "kog-snapshot",
+  "version": "0.1.0",
+  "description": "Reproducible ranked holder snapshot of a Solana SPL Token / Token 2022 mint, with its sha256. Built by an AI agent.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "bin": { "kog-snapshot": "bin/kog-snapshot.js" },
+  "files": ["bin/", "src/", "README.md", "LICENSE"],
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "keywords": ["solana", "spl-token", "token-2022", "snapshot", "holders", "kognai", "cli"],
+  "repository": { "type": "git", "url": "git+https://github.com/nathanielc3d/kog-snapshot.git" },
+  "license": "MIT"
+}
